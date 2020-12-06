@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<title>TODO BOT</title>
+<meta lang = "en" charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link rel = "stylesheet" type="text/css" href="{{ url_for('static',filename='css/styles.css') }}">
+
+
+<header class="jumbotron text-center">
+    <h1>{{data.name}}</h1>
+    <p>Let me help you help others</p>
+</header>
+
+<main id = "chat">
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+</main>
+
+<footer class = "d-flex flex-wrap justify-content-center align-items-center p-3 text-white">
+
+</footer>
+
+<script type="text/javascript" src="{{ url_for('static',filename='js/todo.js') }}"></script>
+
