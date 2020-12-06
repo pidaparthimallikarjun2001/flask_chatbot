@@ -1,1 +1,1 @@
-web: gunicorn todoapp:main
+web: gunicorn todoapp.main:app
