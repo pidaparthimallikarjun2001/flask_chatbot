@@ -2,7 +2,7 @@
 
 
 # OBJECTIVE
-To build a chatbot with Flask(framework)
+To build a simple and basic chatbot with Flask and python(framework)
 # Done by
 18PA1A05C6 P N S S D Mallikarjun
 
