@@ -1,5 +1,5 @@
 # flask_chatbot
-
+Due to some family issues(my mother health), I just completed the project sir. I would have done this better. Please excuse me for this time. Thank you sir.
 
 # OBJECTIVE
 To build a simple and basic chatbot with Flask and python(framework)
